@@ -62,7 +62,7 @@ p {
     animation: blink 0.75s infinite;
 }
 
-.riptide-image {
+.kriptide-image {
     width: 128px;
     height: 128px;
     margin-top: 20px; /* Adjust the margin to centerize the image vertically */
