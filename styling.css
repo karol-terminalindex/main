@@ -1,0 +1,109 @@
+body, html {
+    font-family: Inconsolata;
+    src: url(inconsolata.ttf);
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #e0d0bc;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    text-align: center;
+}
+
+.centered {
+    display: flex;
+    align-items: center;
+}
+
+h1 {
+    font-size: 36px; /* Adjust the font size as needed */
+    margin: 0; /* Remove default margin */
+    color: #423b32;
+}
+
+.description {
+    margin-top: 20px; /* Adjust the space between the title and description */
+}
+
+p {
+    font-size: 18px; /* Default font size for larger screens */
+    max-width: 550px; /* Limit the width of the <p> element */
+    width: 100%; /* Ensure it scales properly */
+    margin-top: 10px; /* Add some top margin */
+}
+
+/* Responsive text scaling for smaller screens (e.g., mobile devices) */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 24px; /* Adjust font size for smaller screens */
+    }
+
+    p {
+        font-size: 16px; /* Adjust font size for smaller screens */
+    }
+}
+
+@keyframes blink {
+    0%, 100% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+}
+
+.blink-dot {
+    animation: blink 0.75s infinite;
+}
+
+.riptide-image {
+    width: 128px;
+    height: 128px;
+    margin-top: 20px; /* Adjust the margin to centerize the image vertically */
+}
+
+.footer {
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100px; /* Adjust the height as needed */
+}
+
+.icons {
+    display: flex;
+    justify-content: center; /* Center icons horizontally */
+    margin-top: 10px;
+}
+
+.icon {
+    width: 22px;
+    height: 22px;
+    margin: 0 10px; /* Add some horizontal spacing between icons */
+}
+
+.iconwide {
+    width: 30px;
+    height: 22px;
+    margin: 0 10px; /* Add some horizontal spacing between icons */
+}
+
+.command-line {
+    color: #7ac267;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 10px;
+    background-color: #333;
+}
