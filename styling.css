@@ -4,10 +4,40 @@ body, html {
     height: 100%;
     margin: 0;
     padding: 0;
-    background-color: #e0d0bc;
+    background: linear-gradient(-45deg, #e0d0bc, #807261, #423b32, #000000);
+    background-size: 400% 400%;
+    animation: gradientAnimation 12s ease infinite;
+    color: #e0d0bc; /* Initial text color for light background */
 }
 
 .container {
+    /* Semi-transparent background to improve readability */
+    background-color: rgba(0, 0, 0, 0.5); /* Adjust the alpha (last value) as needed */
+    padding: 20px; /* Add padding for better spacing */
+    border-radius: 10px; /* Add rounded corners for the background */
+}
+
+@keyframes gradientAnimation {
+    0% {
+        background-position: 0% 50%;
+        color: #e0d0bc; /* Text color when gradient is #e0d0bc */
+    }
+    50% {
+        background-position: 100% 50%;
+        color: #fff; /* Text color when gradient is dark (#423b32) */
+    }
+    100% {
+        background-position: 0% 50%;
+        color: #e0d0bc; /* Text color when gradient is #e0d0bc */
+    }
+}
+
+/* Style for the highlighted text */
+.highlight {
+    color: #fff; /* Text color when the background is dark (#423b32) */
+}
+
+.container { /* main text*/
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -21,7 +51,7 @@ body, html {
     align-items: center;
 }
 
-h1 {
+h1 { /*title properties*/
     font-size: 36px; /* Adjust the font size as needed */
     margin: 0; /* Remove default margin */
     color: #423b32;
@@ -94,8 +124,8 @@ p {
 }
 
 .iconwide {
-    width: 30px;
-    height: 22px;
+    width: 28px;
+    height: 20px;
     margin: 0 10px; /* Add some horizontal spacing between icons */
 }
 
@@ -105,7 +135,7 @@ p {
     top: 0;
     left: 0;
     padding: 10px;
-    background-color: #333;
+    background-color: #000000;
 }
 
 img  {
@@ -114,7 +144,7 @@ img  {
   }
 
   @font-face {
-    font-family: Inconsolata;
+    font-family: Inconsolata; /* added it twice bc idk if it works */
     src: url(https://fonts.googleapis.com/css?family=Inconsolata);
   }
   
