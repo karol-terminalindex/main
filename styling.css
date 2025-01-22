@@ -2,12 +2,12 @@ body, html {
     font-family: Inconsolata;
     src: url(https://fonts.googleapis.com/css?family=Inconsolata);
     height: 120%;
-    margin: 0;
+    margin:s 0;
     padding: 0;
     background: linear-gradient(-45deg, #e0d0bc, #807261, #423b32, #000000);
     background-size: 400% 400%;
     animation: gradientAnimation 12s ease infinite;
-    color: #e0d0bc; /* Initial text color for light background */
+    color: #e0d0bc; /* Initial text color for light background - work you bitchass*/
 }
 
 .container {
