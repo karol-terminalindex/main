@@ -5,13 +5,15 @@
 
 - 🔭 I’m currently working on **Single person company plan.**
 
+- :heart: ADHD person. Cannot focus on sum shi, so I've decided to try to focus. That's how this **readme** or my <a href="https://karolpszo.engineer">**website**</a> was made. If both of these actually exist, I am capable of creating something more.
+
 - 🌱 I’m currently learning **javaScript, C#, Tailwind, CSS, bash and Python.**
 
 - 🤝 I’m looking for help with **starting my own company.**
 
 - 👨‍💻 All of my projects will be soon available @ [my GitHub page.](https://github.com/karol-terminalindex)
 
-- 💬 Ask me about **hardware, operating system, linux kernels, ThinkPads.**
+- 💬 Ask me about **hardware, operating system, linux kernels, operating systems and ThinkPads.**
 
 - 📫 How to reach me? Only via Telegram, Discord, or via my e-mail on profile.
 
