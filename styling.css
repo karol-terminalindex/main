@@ -4,7 +4,7 @@ body, html {
     height: 145%;
     margin: 0;
     padding: 0;
-    background: linear-gradient(-45deg, #e0d0bc, #807261, #423b32, #000000);
+    background: linear-gradient(-45deg, #ddc5a7, #856f55, #42392d, #000000);
     background-size: 400% 400%;
     animation: gradientAnimation 12s ease infinite;
     color: #e0d0bc; /* Initial text color for light background - work you bitchass*/
@@ -162,4 +162,14 @@ img  {
 
 body[data-theme='dark'] #kriptide-image {
     content: url('kriptidedark.png');
+}
+
+a {
+    color: rgb(163, 221, 255);
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(42, 93, 95);
+    text-decoration: underline;
 }
