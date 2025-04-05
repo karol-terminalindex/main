@@ -5,7 +5,7 @@
 
 - 🔭 I’m currently working on **Single person company plan.**
 
-- :heart: ADHD person. Cannot focus on sum shi, so I've decided to try to focus. That's how this **readme** or my <a href="https://karolpszo.engineer">**website**</a> was made. If both of these actually exist, I am capable of creating something more.
+- :heart: CHAOTIC person. Cannot focus on sum shi, so I've decided to try to focus. That's how this **readme** or my <a href="https://karolpszo.engineer">**website**</a> was made. If both of these actually exist, I am capable of creating something more.
 
 - 🌱 I’m currently learning **javaScript, C#, Tailwind, CSS, bash and Python.**
 
